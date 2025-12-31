@@ -12,3 +12,12 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+// 文章模型
+model Post {
+  id Int @id @default(autoincrement()) // 文章id,自动递增
+  title String // 文章标题
+  content String? // 文章内容
+  published Boolean @default(false) // 是否发布，默认为false(未发布)
+  createdAt DateTime @default(now()) // 创建时间,默认为当前时间
+}
