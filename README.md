@@ -1,3 +1,8 @@
+# Blog 后端学习记录
+
+> [!IMPORTANT]
+> **历史学习项目，已停止维护。** 本仓库保存早期 NestJS、Prisma 与 PostgreSQL 的搭建过程，README 下方是当时的学习流水账，不代表当前推荐的部署方案。现在维护的博客后端已整合到 [Blog](https://github.com/YouRen1320/Blog)。代码和提交历史继续保留。
+
 nest new blog-backend
 % cd blog-backend
 pnpm install prisma --save-dev
